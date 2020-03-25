@@ -2,7 +2,7 @@ alert('Com a nossa mensagem.'); // Não existe alert dentro do node, visualizamo
 
 confirm('Deseja realmente apagar?'); // Funcão utilizada para solicitar confirmação do usuario
 
-prompt('Digite seu nome:'); // SErve para solicitar imput do usuário
+prompt('Digite seu nome:'); // Serve para solicitar imput do usuário
 
 // salvando retornos de usuario numa variavel
 
