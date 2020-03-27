@@ -21,9 +21,9 @@ function meuEscopo() {
 
         console.log(pessoas);
 
-        resultado.innerHTML += `<p>${nome.value} ${sobrenome.value} ${peso.value} ${altura.value}</p>`; // mostrando o resultao no html
+        resultado.innerHTML += `<p>${nome.value} ${sobrenome.value} ${peso.value} ${altura.value}</p>`; // mostrando o resultado no html
     }
 
-    form.addEventListener('submit', recebeEventoForm);
+    form.addEventListener('submit', recebeEventoForm); // método para escultar um evento
 }
 meuEscopo();
