@@ -32,6 +32,7 @@ console.log(removido2)
 
 console.log(alunos.slice(0, 3)); // fatiando os elementos do array do indice 0 até o 3
 
+
 /*
 apagando elementos sem alterar os indices do array
 
