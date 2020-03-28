@@ -29,7 +29,7 @@ formulario.addEventListener('submit', function (event) { // adicionamos um event
 });
 
 
-// funçãompara verificar o nivel do IMC
+// função para verificar o nivel do IMC
 function getNivelImc(imc){
     const nivel = ['Abaixo do peso', 'Peso normal', 'Sobrepeso', 'Obesidade grau 1', 
     'Obesidade grau 2', 'Obesidade grau 3'];
