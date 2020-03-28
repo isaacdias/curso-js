@@ -13,7 +13,7 @@ function falaOi() {
 }
 
 const vaiExecutar = 0;
-console.log(vaiExecutar && falaOi()); // condicional de corma simples
+console.log(vaiExecutar && falaOi()); // condicional de forma simples
 
 console.log(0 || false || null || 'Isaac' || true);
 
