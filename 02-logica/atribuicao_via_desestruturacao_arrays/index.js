@@ -22,7 +22,13 @@ console.log(a, b , c);
 
 const numeros = [1, 2, 3, 4, 5, 6,];
 let [primeiroNumero, segundoNumero, terceiroNumero, 
-    quartoNumero, quintoNumero, sextoNumero] = numeros;
+    quartoNumero, quintoNumero, sextoNumero] = numeros; // aqui atribui os valores do array em variaveis separadas deuma vez só.
 
 console.log(primeiroNumero, segundoNumero, terceiroNumero, 
-    quartoNumero, quintoNumero, segundoNumero);
+    quartoNumero, quintoNumero, sextoNumero);
+
+// Atribuindo array em variaveis distintas + o resto em uma só variavel usando o operador '...'
+
+const numeros2 = [1, 2, 3, 4, 5, 6,];
+let [primeiroNumero2, segundoNumero2, ...resto] = numeros2; // aqui atribui os valores do array em variaveis separadas deuma vez só.
+console.log(primeiroNumero2, segundoNumero2, resto);
