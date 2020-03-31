@@ -42,3 +42,9 @@ console.log(primeiroNumero3, terceiroNumero3, quintoNumero3);
 
 numeros4 = [ [1, 2, 3], [4, 5, 6], [7, 8, 9] ]; // um array com outros arrays dentro dele
 console.log(numeros4[2][0]); // acessando o numero 7 
+
+// desestruturação com array dentro de array
+
+let [lista1, lista2, lista3] = numeros4;
+console.log(lista2[1]);
+
