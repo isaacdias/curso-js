@@ -14,3 +14,10 @@ tem o mesmo nome do atributo e logo já busca o valor desse atributo.
 */
 const { nome, idade, endereco } = pessoa;
 console.log(nome, idade, endereco);    
+
+/*
+Exemplo para fazer o mesmo mas mudando o nome das variaveis
+*/
+
+const { nome: nomeUsuario, idade: idadeUsuario, endereco: enderecoUsuario } = pessoa;
+console.log(nomeUsuario, idadeUsuario, enderecoUsuario);    
