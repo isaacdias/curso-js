@@ -27,7 +27,7 @@ let [primeiroNumero, segundoNumero, terceiroNumero,
 console.log(primeiroNumero, segundoNumero, terceiroNumero, 
     quartoNumero, quintoNumero, sextoNumero);
 
-// Atribuindo array em variaveis distintas + o resto em uma só variavel usando o operador '...'
+// Atribuindo array em variaveis distintas + o resto em uma só variavel usando o operador ...(rest)
 
 const numeros2 = [1000, 2000, 3000, 4000, 5000, 6000,];
 let [primeiroNumero2, segundoNumero2, ...resto] = numeros2; // aqui atribui os valores do array em variaveis separadas deuma vez só.
