@@ -15,9 +15,13 @@ tem o mesmo nome do atributo e logo já busca o valor desse atributo.
 const { nome, idade, endereco } = pessoa;
 console.log(nome, idade, endereco);    
 
-/*
-Exemplo para fazer o mesmo mas mudando o nome das variaveis
-*/
+
+// Exemplo para fazer o mesmo mas mudando o nome das variaveis
 
 const { nome: nomeUsuario, idade: idadeUsuario, endereco: enderecoUsuario } = pessoa;
 console.log(nomeUsuario, idadeUsuario, enderecoUsuario);    
+
+
+// exemplo pegando um obejto detro de outro objeto
+const { nome: nomeUsuario2, idade: idadeUsuario2, endereco: {rua: ruaUsuario} } = pessoa;
+console.log(nomeUsuario2, idadeUsuario2, ruaUsuario);
