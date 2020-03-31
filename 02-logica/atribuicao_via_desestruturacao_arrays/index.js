@@ -29,6 +29,6 @@ console.log(primeiroNumero, segundoNumero, terceiroNumero,
 
 // Atribuindo array em variaveis distintas + o resto em uma só variavel usando o operador '...'
 
-const numeros2 = [1, 2, 3, 4, 5, 6,];
+const numeros2 = [1000, 2000, 3000, 4000, 5000, 6000,];
 let [primeiroNumero2, segundoNumero2, ...resto] = numeros2; // aqui atribui os valores do array em variaveis separadas deuma vez só.
 console.log(primeiroNumero2, segundoNumero2, resto);
