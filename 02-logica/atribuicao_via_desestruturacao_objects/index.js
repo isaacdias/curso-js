@@ -22,6 +22,6 @@ const { nome: nomeUsuario, idade: idadeUsuario, endereco: enderecoUsuario } = pe
 console.log(nomeUsuario, idadeUsuario, enderecoUsuario);    
 
 
-// exemplo pegando um obejto detro de outro objeto
+// exemplo pegando um obejto dentro de outro objeto
 const { nome: nomeUsuario2, idade: idadeUsuario2, endereco: {rua: ruaUsuario} } = pessoa;
 console.log(nomeUsuario2, idadeUsuario2, ruaUsuario);
