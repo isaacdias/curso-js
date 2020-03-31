@@ -9,8 +9,8 @@ const pessoa = {
     }
 }
 
-/* Na atribuição por desestruturação com objeto, a variavel precisa 
-ter o mesmo nome do atributo
+/* Na atribuição por desestruturação com objeto, a variavel  
+tem o mesmo nome do atributo e logo já busca o valor desse atributo.
 */
 const { nome, idade, endereco } = pessoa;
 console.log(nome, idade, endereco);    
