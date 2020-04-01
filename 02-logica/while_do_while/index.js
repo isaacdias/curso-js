@@ -25,6 +25,8 @@ while (rand !== 10) {
 
 console.log('--------------EXEMPLO DO WHILE-----------------');
 
+// do while sempre executa pelo menos uma vez antes de verificar a condição 
+
 let rand2 = 10 
 
 do {
