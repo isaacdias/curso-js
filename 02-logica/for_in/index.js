@@ -1,4 +1,4 @@
-// Ffor in com arrays 
+// for in com arrays 
 
 const frutas = ['Pêra', 'Maçã', 'Uva'];
 
