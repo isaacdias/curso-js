@@ -9,7 +9,7 @@ console.log(a4);
 const a5 = [...a1, ...a2] // utilizando o spread operator com arrays
 console.log(a5);
 
-const a6 = [...a1, ...a2, ...[7, 8, 9], 'Luiz'] // utilizando o spread  
+const a6 = [...a1, ...a2, ...[7, 8, 9], 'Luiz'] // utilizando o spread com array literal e string
 console.log(a6);
 
 
