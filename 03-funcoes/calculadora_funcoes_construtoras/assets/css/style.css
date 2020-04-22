@@ -63,6 +63,10 @@ form button:hover {
   margin-right: auto;
 }
 
+.tituloCalc {
+  margin-left: 5px;
+}
+
 .display {
   font-size: 2em;
   width: 100%;
