@@ -1,3 +1,3 @@
 # curso-js
 
-curso de javascript feito através do site udemy.
+Curso de introdução á javascript feito através do site udemy.
